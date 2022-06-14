@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from '../public/images/logo.png'
+
 function Navbar() {
   return (
     <div className='bg-yellow-400 flex md:justify-center'>
-    <img src={logo} alt=""  className='w-auto'/>
+    {/* <img src='' alt="aaa"  className='w-auto'/> */}
     
     <ul className=' flex space-x-3 p-1'>
         <li>Home</li>
